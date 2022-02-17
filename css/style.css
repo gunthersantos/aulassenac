@@ -1,0 +1,83 @@
+body,
+p,
+h1,
+h2,
+h3 {
+  margin: 0;
+}
+body {
+  background: #f7f7f7;
+  font-family: Arial, Helvetica, sans-serif;
+  display: grid;
+  gap: 60px;
+  justify-items: center;
+  margin-top: 60px;
+  /* margem para afastar o header do topo */
+}
+
+img {
+  /* comando de responsividade das imagens para que a img se ajuste ao tamanho da caixa */
+  max-width: 100%;
+}
+.menu {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 60px;
+}
+
+.menu a {
+  background: #ffff;
+  padding: 15px 30px;
+  border-radius: 5px;
+  color: black;
+  text-decoration: none;
+}
+header {
+  text-align: center;
+}
+.principal {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  max-width: 1000px;
+}
+
+.introdução {
+  display: grid;
+  place-content: center;
+  gap: 20px;
+  padding: 40px;
+  background: #ffff;
+  text-align: right;
+  position: relative;
+  justify-items: end;
+}
+
+.introdução a {
+  padding: 16px 32px;
+  text-decoration: none;
+  background: red;
+  border-radius: 4px;
+  color: #ffff;
+  text-transform: uppercase;
+  display: inline-block;
+}
+
+.introdução h1 {
+  font-size: 32px;
+  font-weight: 700px;
+}
+.introdução p {
+  line-height: 26px;
+  font-size: 20px;
+  text-align: right;
+}
+
+.vantagens {
+}
+.vantagens h2 {
+  font-size: 64px;
+  text-transform: uppercase;
+  color: rgba(0, 0, 0, 0.2);
+}
